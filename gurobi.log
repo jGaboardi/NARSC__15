@@ -1,0 +1,784 @@
+
+Gurobi 6.5.0 (mac64) logging started Sat Nov  7 17:05:21 2015
+
+Changed value of parameter MIPFocus to 2
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Optimize a model with 100 rows, 50 columns and 1544 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 4
+Presolve removed 100 rows and 50 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0%
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 5101 rows, 5050 columns and 15050 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [4e-02, 2e+02]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.06s
+Presolved: 5101 rows, 5050 columns, 15050 nonzeros
+Variable types: 0 continuous, 5050 integer (5050 binary)
+Found heuristic solution: objective 3108.3265634
+Presolved: 5101 rows, 5050 columns, 15050 nonzeros
+
+
+Root relaxation: objective 2.139121e+03, 1999 iterations, 0.12 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    2139.1208522 2139.12085  0.00%     -    0s
+
+Explored 0 nodes (1999 simplex iterations) in 0.20 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.139120852200e+03, best bound 2.139120852200e+03, gap 0.0%
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 5201 rows, 5051 columns and 20133 nonzeros
+Coefficient statistics:
+  Matrix range    [3e-03, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.13s
+Presolved: 5201 rows, 5051 columns, 20026 nonzeros
+Variable types: 1 continuous, 5050 integer (5050 binary)
+Found heuristic solution: objective 2.3084679
+Found heuristic solution: objective 2.2544859
+Presolve removed 502 rows and 502 columns
+Presolved: 4699 rows, 4549 columns, 18018 nonzeros
+
+
+Root relaxation: objective 1.319985e+00, 3807 iterations, 0.27 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.31998    0  482    2.25449    1.31998  41.5%     -    0s
+H    0     0                       2.2440306    1.31998  41.2%     -    0s
+H    0     0                       2.1706152    1.31998  39.2%     -    0s
+     0     0    1.37321    0  510    2.17062    1.37321  36.7%     -    1s
+     0     0    1.37519    0  313    2.17062    1.37519  36.6%     -    1s
+H    0     0                       1.8674214    1.37519  26.4%     -    2s
+     0     0    1.65759    0  202    1.86742    1.65759  11.2%     -    2s
+H    0     0                       1.7906158    1.65759  7.43%     -    2s
+H    0     0                       1.7749842    1.65759  6.61%     -    2s
+H    0     0                       1.7566100    1.65759  5.64%     -    2s
+*    0     0               0       1.7178723    1.71787  0.00%     -    2s
+
+Cutting planes:
+  Gomory: 4
+  Cover: 1
+  Implied bound: 2
+  MIR: 18
+  Flow cover: 7
+  Zero half: 9
+
+Explored 0 nodes (39403 simplex iterations) in 2.72 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.717872260271e+00, best bound 1.717872260271e+00, gap 0.0%
+Read LP format model from file /Users/jgaboardi/NARSC__15/LP_Files/pCenter_Manual.lp
+Reading time = 0.02 seconds
+(null): 5201 rows, 5051 columns, 20133 nonzeros
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 5201 rows, 5051 columns and 20133 nonzeros
+Coefficient statistics:
+  Matrix range    [3e-03, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.14s
+Presolved: 5201 rows, 5051 columns, 20026 nonzeros
+Variable types: 1 continuous, 5050 integer (5050 binary)
+Found heuristic solution: objective 2.3084679
+Found heuristic solution: objective 2.2544859
+Presolve removed 502 rows and 502 columns
+Presolved: 4699 rows, 4549 columns, 18018 nonzeros
+
+
+Root relaxation: objective 1.319985e+00, 5392 iterations, 0.45 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.31998    0  436    2.25449    1.31998  41.5%     -    1s
+H    0     0                       1.7178723    1.31998  23.2%     -    1s
+     0     0    1.40319    0  293    1.71787    1.40319  18.3%     -    1s
+     0     0     cutoff    0         1.71787    1.71787  0.00%     -    1s
+
+Explored 0 nodes (29689 simplex iterations) in 1.65 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.717872260270e+00, best bound 1.717872260270e+00, gap 0.0%
+
+Gurobi 6.5.0 (mac64) logging started Sat Nov  7 17:09:17 2015
+
+Changed value of parameter MIPFocus to 2
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Optimize a model with 100 rows, 15 columns and 492 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1601 rows, 1515 columns and 4515 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [3e-02, 2e+02]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.01s
+Presolved: 1601 rows, 1515 columns, 4515 nonzeros
+Variable types: 0 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 3505.7170816
+Presolved: 1601 rows, 1515 columns, 4515 nonzeros
+
+
+Root relaxation: objective 2.203383e+03, 589 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    2203.3825398 2203.38254  0.00%     -    0s
+
+Explored 0 nodes (589 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.203382539834e+03, best bound 2.203382539834e+03, gap 0.0%
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1701 rows, 1516 columns and 6106 nonzeros
+Coefficient statistics:
+  Matrix range    [3e-03, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.02s
+Presolved: 1701 rows, 1516 columns, 6015 nonzeros
+Variable types: 1 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 2.7167188
+Found heuristic solution: objective 2.3663174
+Found heuristic solution: objective 2.2945216
+Presolve removed 124 rows and 124 columns
+Presolved: 1577 rows, 1392 columns, 5519 nonzeros
+
+
+Root relaxation: objective 1.415182e+00, 1161 iterations, 0.04 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.41518    0  350    2.29452    1.41518  38.3%     -    0s
+H    0     0                       2.2658752    1.41518  37.5%     -    0s
+H    0     0                       2.1138929    1.41518  33.1%     -    0s
+     0     0    1.46682    0  390    2.11389    1.46682  30.6%     -    0s
+     0     0    1.52455    0  184    2.11389    1.52455  27.9%     -    0s
+H    0     0                       1.5972891    1.52455  4.55%     -    0s
+
+Cutting planes:
+  Flow cover: 3
+
+Explored 0 nodes (8970 simplex iterations) in 0.40 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.597289104291e+00, best bound 1.597289104291e+00, gap 0.0%
+Read LP format model from file /Users/jgaboardi/NARSC__15/LP_Files/pCenter_Manual.lp
+Reading time = 0.01 seconds
+(null): 1701 rows, 1516 columns, 6106 nonzeros
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1701 rows, 1516 columns and 6106 nonzeros
+Coefficient statistics:
+  Matrix range    [3e-03, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.03s
+Presolved: 1701 rows, 1516 columns, 6015 nonzeros
+Variable types: 1 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 2.7167188
+Found heuristic solution: objective 2.3663174
+Found heuristic solution: objective 2.2945216
+Presolve removed 124 rows and 124 columns
+Presolved: 1577 rows, 1392 columns, 5519 nonzeros
+
+
+Root relaxation: objective 1.415182e+00, 1303 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.41518    0  354    2.29452    1.41518  38.3%     -    0s
+H    0     0                       2.2658752    1.41518  37.5%     -    0s
+H    0     0                       2.1138929    1.41518  33.1%     -    0s
+     0     0    1.47764    0  323    2.11389    1.47764  30.1%     -    0s
+     0     0    1.52455    0  188    2.11389    1.52455  27.9%     -    0s
+H    0     0                       1.5972891    1.52455  4.55%     -    0s
+
+Explored 0 nodes (9771 simplex iterations) in 0.48 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.597289104290e+00, best bound 1.597289104290e+00, gap 0.0%
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 100 rows, 15 columns and 819 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 3
+Presolve removed 100 rows and 15 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0%
+Read LP format model from file /Users/jgaboardi/NARSC__15/LP_Files/pCenter_Manual.lp
+Reading time = 0.01 seconds
+(null): 1701 rows, 1516 columns, 6106 nonzeros
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1701 rows, 1516 columns and 6106 nonzeros
+Coefficient statistics:
+  Matrix range    [3e-03, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.03s
+Presolved: 1701 rows, 1516 columns, 6015 nonzeros
+Variable types: 1 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 2.7167188
+Found heuristic solution: objective 2.3663174
+Found heuristic solution: objective 2.2945216
+Presolve removed 124 rows and 124 columns
+Presolved: 1577 rows, 1392 columns, 5519 nonzeros
+
+
+Root relaxation: objective 1.415182e+00, 1303 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.41518    0  354    2.29452    1.41518  38.3%     -    0s
+H    0     0                       2.2658752    1.41518  37.5%     -    0s
+H    0     0                       2.1138929    1.41518  33.1%     -    0s
+     0     0    1.47764    0  323    2.11389    1.47764  30.1%     -    0s
+     0     0    1.52455    0  188    2.11389    1.52455  27.9%     -    0s
+H    0     0                       1.5972891    1.52455  4.55%     -    0s
+
+Explored 0 nodes (9771 simplex iterations) in 0.55 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.597289104290e+00, best bound 1.597289104290e+00, gap 0.0%
+Read LP format model from file /Users/jgaboardi/NARSC__15/LP_Files/pCenter_Manual.lp
+Reading time = 0.01 seconds
+(null): 1701 rows, 1516 columns, 6106 nonzeros
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1701 rows, 1516 columns and 6106 nonzeros
+Coefficient statistics:
+  Matrix range    [3e-03, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.03s
+Presolved: 1701 rows, 1516 columns, 6015 nonzeros
+Variable types: 1 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 2.7167188
+Found heuristic solution: objective 2.3663174
+Found heuristic solution: objective 2.2945216
+Presolve removed 124 rows and 124 columns
+Presolved: 1577 rows, 1392 columns, 5519 nonzeros
+
+
+Root relaxation: objective 1.415182e+00, 1303 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.41518    0  354    2.29452    1.41518  38.3%     -    0s
+H    0     0                       2.2658752    1.41518  37.5%     -    0s
+H    0     0                       2.1138929    1.41518  33.1%     -    0s
+     0     0    1.47764    0  323    2.11389    1.47764  30.1%     -    0s
+     0     0    1.52455    0  188    2.11389    1.52455  27.9%     -    0s
+H    0     0                       1.5972891    1.52455  4.55%     -    0s
+
+Explored 0 nodes (9771 simplex iterations) in 0.49 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.597289104290e+00, best bound 1.597289104290e+00, gap 0.0%
+
+Gurobi 6.5.0 (mac64) logging started Sat Nov  7 21:48:38 2015
+
+Changed value of parameter MIPFocus to 2
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Optimize a model with 100 rows, 15 columns and 841 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 3
+Presolve removed 100 rows and 15 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0%
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1601 rows, 1515 columns and 4515 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [6e-04, 2e+02]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.01s
+Presolved: 1601 rows, 1515 columns, 4515 nonzeros
+Variable types: 0 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 4059.4405735
+Presolved: 1601 rows, 1515 columns, 4515 nonzeros
+
+
+Root relaxation: objective 2.379584e+03, 581 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    2379.5843132 2379.58431  0.00%     -    0s
+
+Explored 0 nodes (581 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.379584313169e+03, best bound 2.379584313169e+03, gap 0.0%
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1701 rows, 1516 columns and 6104 nonzeros
+Coefficient statistics:
+  Matrix range    [7e-05, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.03s
+Presolved: 1701 rows, 1516 columns, 6015 nonzeros
+Variable types: 1 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 3.2141208
+Found heuristic solution: objective 3.0719955
+Found heuristic solution: objective 3.0580567
+Presolve removed 81 rows and 81 columns
+Presolved: 1620 rows, 1435 columns, 5691 nonzeros
+
+
+Root relaxation: objective 1.483051e+00, 1004 iterations, 0.03 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.48305    0  327    3.05806    1.48305  51.5%     -    0s
+H    0     0                       2.5087801    1.48305  40.9%     -    0s
+H    0     0                       2.2793853    1.48305  34.9%     -    0s
+     0     0    1.77193    0  260    2.27939    1.77193  22.3%     -    0s
+     0     0    1.77193    0  211    2.27939    1.77193  22.3%     -    0s
+H    0     0                       2.0043304    1.77193  11.6%     -    0s
+H    0     0                       2.0017158    1.77193  11.5%     -    0s
+     0     0     cutoff    0         2.00172    2.00172  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+
+Explored 0 nodes (7835 simplex iterations) in 0.35 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.001715793764e+00, best bound 2.001715793764e+00, gap 0.0%
+Read LP format model from file /Users/jgaboardi/NARSC__15/LP_Files/pCenter_Manual.lp
+Reading time = 0.01 seconds
+(null): 1701 rows, 1516 columns, 6104 nonzeros
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1701 rows, 1516 columns and 6104 nonzeros
+Coefficient statistics:
+  Matrix range    [7e-05, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.03s
+Presolved: 1701 rows, 1516 columns, 6015 nonzeros
+Variable types: 1 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 3.2141208
+Found heuristic solution: objective 3.0719955
+Found heuristic solution: objective 3.0580567
+Presolve removed 81 rows and 81 columns
+Presolved: 1620 rows, 1435 columns, 5691 nonzeros
+
+
+Root relaxation: objective 1.483051e+00, 1310 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.48305    0  332    3.05806    1.48305  51.5%     -    0s
+H    0     0                       2.9265486    1.48305  49.3%     -    0s
+H    0     0                       2.5087801    1.48305  40.9%     -    0s
+     0     0    1.77193    0  301    2.50878    1.77193  29.4%     -    0s
+H    0     0                       2.3102235    1.77193  23.3%     -    0s
+H    0     0                       2.0951485    1.77193  15.4%     -    0s
+H    0     0                       2.0017158    1.77193  11.5%     -    0s
+     0     0     cutoff    0         2.00172    2.00172  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 8
+  Implied bound: 15
+  Clique: 1
+  Zero half: 3
+
+Explored 0 nodes (5388 simplex iterations) in 0.31 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.001715793760e+00, best bound 2.001715793760e+00, gap 0.0%
+
+Gurobi 6.5.0 (mac64) logging started Sat Nov  7 21:49:40 2015
+
+Changed value of parameter MIPFocus to 2
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Optimize a model with 100 rows, 15 columns and 990 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 2
+Presolve removed 100 rows and 15 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0%
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1601 rows, 1515 columns and 4515 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [3e-02, 2e+02]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.01s
+Presolved: 1601 rows, 1515 columns, 4515 nonzeros
+Variable types: 0 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 3863.3708435
+Presolved: 1601 rows, 1515 columns, 4515 nonzeros
+
+
+Root relaxation: objective 2.272143e+03, 567 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    2272.1432323 2272.14323  0.00%     -    0s
+
+Explored 0 nodes (567 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.272143232294e+03, best bound 2.272143232294e+03, gap 0.0%
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1701 rows, 1516 columns and 6112 nonzeros
+Coefficient statistics:
+  Matrix range    [7e-04, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.02s
+Presolved: 1701 rows, 1516 columns, 6015 nonzeros
+Variable types: 1 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 2.5782047
+Found heuristic solution: objective 2.5078965
+Found heuristic solution: objective 2.3395872
+Presolve removed 278 rows and 278 columns
+Presolved: 1423 rows, 1238 columns, 4903 nonzeros
+
+
+Root relaxation: objective 1.475567e+00, 1001 iterations, 0.03 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.47557    0  287    2.33959    1.47557  36.9%     -    0s
+H    0     0                       1.9900839    1.47557  25.9%     -    0s
+     0     0     cutoff    0         1.99008    1.99008  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 11
+  Implied bound: 13
+  Zero half: 3
+
+Explored 0 nodes (3188 simplex iterations) in 0.14 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.990083883637e+00, best bound 1.990083883637e+00, gap 0.0%
+Read LP format model from file /Users/jgaboardi/NARSC__15/LP_Files/pCenter_Manual.lp
+Reading time = 0.01 seconds
+(null): 1701 rows, 1516 columns, 6112 nonzeros
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1701 rows, 1516 columns and 6112 nonzeros
+Coefficient statistics:
+  Matrix range    [7e-04, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.03s
+Presolved: 1701 rows, 1516 columns, 6015 nonzeros
+Variable types: 1 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 2.5782047
+Found heuristic solution: objective 2.5078965
+Found heuristic solution: objective 2.3395872
+Presolve removed 278 rows and 278 columns
+Presolved: 1423 rows, 1238 columns, 4903 nonzeros
+
+
+Root relaxation: objective 1.475567e+00, 850 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.47557    0  292    2.33959    1.47557  36.9%     -    0s
+H    0     0                       2.0974700    1.47557  29.7%     -    0s
+H    0     0                       1.9900839    1.47557  25.9%     -    0s
+     0     0     cutoff    0         1.99008    1.99008  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 8
+  Implied bound: 5
+  Zero half: 14
+
+Explored 0 nodes (4251 simplex iterations) in 0.16 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.990083883640e+00, best bound 1.990083883640e+00, gap 0.0%
+
+Gurobi 6.5.0 (mac64) logging started Sat Nov  7 21:54:31 2015
+
+Changed value of parameter MIPFocus to 2
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Optimize a model with 100 rows, 15 columns and 867 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 2
+Presolve removed 100 rows and 15 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0%
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1601 rows, 1515 columns and 4515 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e-02, 2e+02]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.01s
+Presolved: 1601 rows, 1515 columns, 4515 nonzeros
+Variable types: 0 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 3762.6958015
+Presolved: 1601 rows, 1515 columns, 4515 nonzeros
+
+
+Root relaxation: objective 2.145245e+03, 520 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    2145.2450087 2145.24501  0.00%     -    0s
+
+Explored 0 nodes (520 simplex iterations) in 0.05 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.145245008742e+03, best bound 2.145245008742e+03, gap 0.0%
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1701 rows, 1516 columns and 6100 nonzeros
+Coefficient statistics:
+  Matrix range    [1e-03, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.03s
+Presolved: 1701 rows, 1516 columns, 6009 nonzeros
+Variable types: 1 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 3.4292661
+Found heuristic solution: objective 3.0216640
+Found heuristic solution: objective 3.0003274
+Presolve removed 74 rows and 74 columns
+Presolved: 1627 rows, 1442 columns, 5713 nonzeros
+
+
+Root relaxation: objective 1.374364e+00, 1303 iterations, 0.04 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.37436    0  402    3.00033    1.37436  54.2%     -    0s
+H    0     0                       2.9388821    1.37436  53.2%     -    0s
+H    0     0                       2.4853784    1.37436  44.7%     -    0s
+     0     0    1.56731    0  385    2.48538    1.56731  36.9%     -    0s
+H    0     0                       2.1808754    1.56731  28.1%     -    0s
+     0     0    1.56731    0  363    2.18088    1.56731  28.1%     -    0s
+     0     0    1.58584    0  229    2.18088    1.58584  27.3%     -    0s
+     0     0    1.58584    0  221    2.18088    1.58584  27.3%     -    0s
+H    0     0                       1.8018974    1.58584  12.0%     -    0s
+     0     0     cutoff    0         1.80190    1.80190  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 7
+  MIR: 9
+  Flow cover: 11
+  Zero half: 9
+
+Explored 0 nodes (9756 simplex iterations) in 0.44 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.801897413035e+00, best bound 1.801897413035e+00, gap 0.0%
+Read LP format model from file /Users/jgaboardi/NARSC__15/LP_Files/pCenter_Manual.lp
+Reading time = 0.01 seconds
+(null): 1701 rows, 1516 columns, 6100 nonzeros
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1701 rows, 1516 columns and 6100 nonzeros
+Coefficient statistics:
+  Matrix range    [1e-03, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.03s
+Presolved: 1701 rows, 1516 columns, 6009 nonzeros
+Variable types: 1 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 3.4292661
+Found heuristic solution: objective 3.0216640
+Found heuristic solution: objective 3.0003274
+Presolve removed 74 rows and 74 columns
+Presolved: 1627 rows, 1442 columns, 5713 nonzeros
+
+
+Root relaxation: objective 1.374364e+00, 1190 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.37436    0  404    3.00033    1.37436  54.2%     -    0s
+H    0     0                       2.3312530    1.37436  41.0%     -    0s
+     0     0    1.56731    0  351    2.33125    1.56731  32.8%     -    0s
+     0     0    1.56731    0  222    2.33125    1.56731  32.8%     -    0s
+H    0     0                       1.9476988    1.56731  19.5%     -    0s
+H    0     0                       1.8018974    1.56731  13.0%     -    0s
+     0     0     cutoff    0         1.80190    1.80190  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 9
+  Zero half: 14
+
+Explored 0 nodes (10209 simplex iterations) in 0.42 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.801897413030e+00, best bound 1.801897413030e+00, gap 0.0%
+Read LP format model from file /Users/jgaboardi/NARSC__15/LP_Files/pCenter_Manual.lp
+Reading time = 0.00 seconds
+(null): 1701 rows, 1516 columns, 6100 nonzeros
+Parameter MIPFocus unchanged
+   Value: 2  Min: 0  Max: 3  Default: 0
+Optimize a model with 1701 rows, 1516 columns and 6100 nonzeros
+Coefficient statistics:
+  Matrix range    [1e-03, 4e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+00]
+Presolve time: 0.03s
+Presolved: 1701 rows, 1516 columns, 6009 nonzeros
+Variable types: 1 continuous, 1515 integer (1515 binary)
+Found heuristic solution: objective 3.4292661
+Found heuristic solution: objective 3.0216640
+Found heuristic solution: objective 3.0003274
+Presolve removed 74 rows and 74 columns
+Presolved: 1627 rows, 1442 columns, 5713 nonzeros
+
+
+Root relaxation: objective 1.374364e+00, 1190 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.37436    0  404    3.00033    1.37436  54.2%     -    0s
+H    0     0                       2.3312530    1.37436  41.0%     -    0s
+     0     0    1.56731    0  351    2.33125    1.56731  32.8%     -    0s
+     0     0    1.56731    0  222    2.33125    1.56731  32.8%     -    0s
+H    0     0                       1.9476988    1.56731  19.5%     -    0s
+H    0     0                       1.8018974    1.56731  13.0%     -    0s
+     0     0     cutoff    0         1.80190    1.80190  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 9
+  Zero half: 14
+
+Explored 0 nodes (10209 simplex iterations) in 0.44 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.801897413030e+00, best bound 1.801897413030e+00, gap 0.0%
