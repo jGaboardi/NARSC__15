@@ -6,18 +6,17 @@ CoinMP,Interface Library,,supports CLP-CBC-CGL
 CLP,LP Solver,,Coin LP (COIN)
 CBC,MILP Solver,,Coin Branch-and-Cut (COIN)
 CGL,Library,,Cut Generation Library (COIN)
-Symphony,MILP Solver/Library,10/10/2015, (COIN)
+Symphony,MILP Solver/Library,10/10/15, (COIN)
 dlib,Library,,C++
-GLPK,Solver,10/1/2015,complicated install
-GrUMPY,Library,3/28/2015,visualizations
-JOptimizer,Library,12/20/2014,minimization in Java
+GLPK,Solver,10/1/15,complicated install
+JOptimizer,Library,12/20/14,minimization in Java
 LEMON,Library,,C++ (COIN)
-Liger,Integrated Environment,9/7/2013,C++
-Midaco,Solver,5/1/2013,many languages
-NOMAD,Solver,3/1/2015,C++
-OpenMDAO,Library of Solvers,4/28/2015,Python
-OpenOpt,Library,8/8/2015,Python Package
-PPL,Solver,8/1/2013,C/C++
-Scilab,Language,3/31/2015,
-SciPy.Optimize,Library,7/23/2015,Python Package
-PuLP,LP Modeler,6/9/2015,Python to call solvers  (COIN)
+Liger,Integrated Environment,9/7/13,C++
+Midaco,Solver,5/1/13,many languages
+NOMAD,Solver,3/1/15,C++
+OpenMDAO,Library of Solvers,4/28/15,Python
+OpenOpt,Library,8/8/15,Python Package
+PPL,Solver,8/1/13,C/C++
+Scilab,Language,3/31/15,
+SciPy.Optimize,Library,7/23/15,Python Package
+PuLP,LP Modeler,6/9/15,Python to call solvers  (COIN)
